@@ -1,0 +1,63 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="/saved">Saved Races</a>
+
+
+    </div>
+  </div>
+</nav>
+
+
+<div class="jumbotron">
+
+    <div class="button-container text-center">
+
+        <a class="newRacesBtn btn btn-dark" href="/results/scrape">Find New Races</a>
+
+        <a class="removeRacesBtn btn btn-dark" href="/clear">Remove Races</a>
+
+    </div>
+
+</div>
+
+
+<div class="card-container container">
+
+    {{#each races}}
+
+    <div class="card col-3">
+
+    <div class="text-center">
+        <a data-id="{{id}}" data-saved="{{saved}}" class="saveBtn btn btn-light-secondary" href="/save"><i class="fas fa-plus-square"> </i>Save</a>
+
+    </div>
+    
+    <p class="race">{{race}}</p>
+
+    <p class="date">{{date}} | {{location}} </p>
+     {{!-- <p class="location">{{location}}</p> --}}
+    <p class="raceDesc">{{raceDescription}}</p>
+
+    
+
+   
+    <div class="row">
+  <a class="redirectLink btn btn-outline-success" href="https://www.runningintheusa.com/{{redirectLink}}">More info</a>
+    <a class="googleMaps btn btn-outline-warning" href="{{googleMapsLink}}">Google Maps</a>
+    </div>
+
+  
+    
+    </div>
+
+     {{/each}}
+
+</div>
+
+   <script src="https://use.fontawesome.com/6207dd8341.js"></script>

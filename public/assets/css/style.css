@@ -1,0 +1,124 @@
+.card {
+    float: left;
+    position: fixed; 
+    left: 3.5%;
+    margin: 10px 30px;
+    width: 350px;
+    height: 210px;
+}
+
+
+.savedCard {
+    float: left;
+    position: fixed; 
+    left: 3.5%;
+    margin: 10px 30px;
+    width: 350px;
+    height: 210px;
+}
+
+.addComment {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 8pt !important;
+    height: 30px !important;
+    color: blue !important;
+}
+
+
+.wrapperDiv {
+    margin-top: 5px;
+    background-color: lightblue;
+}
+
+
+
+.note-text {
+    margin: 5px 5px;
+}
+
+.add-comment{
+    height: 30px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.race {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.1em; 
+}
+
+.date {
+    color: gray; 
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.raceDesc {
+    color: black; 
+    font-size: 0.8em;
+    margin-bottom: 4px;
+}
+
+.card-container.container {
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.googleMaps {
+    position: absolute; 
+    font-size: 10pt !important;
+  right: 10px; 
+  bottom: 10px;
+    margin-left: 15px; 
+    height: 30px !important;
+}
+
+.redirectLink {
+    position: absolute; 
+    font-size: 10pt !important;
+  left: 0px; 
+  bottom: 10px;
+    margin-left: 15px;
+    height: 30px !important;
+}
+
+.saveBtn {
+    /* position: absolute;
+    left: 15px; 
+    bottom: 50px; */
+    /* float: right; */
+    font-size: 8pt !important;
+    height: 30px !important;
+    width: 100px !important;
+    color: green !important;
+}
+
+.removeRaceBtn {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    font-size: 8pt !important;
+    /* left: 15px; 
+    bottom: 50px; */
+    font-size: 10pt !important;
+    height: 30px !important;
+    width: 30px !important;
+    color: red !important;
+}
+
+body i {
+    font-family:'FontAwesome'!important;
+    font-style: normal;
+    }
+
+/* .button-container {
+   
+} */
+
+/* .newRacesBtn {
+display: block !important;
+margin-right: auto ;
+margin-left: auto ;
+} */
