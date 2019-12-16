@@ -60,8 +60,11 @@ $(document).on("click", ".saveBtn", function(e) {
         data: {saved: true}
     }).then(function() {
         console.log("udpated  to saved");
-        location.reload(); 
+
+        setTimeout(function(){  location.reload(); }, 1000);
+        
     });
+
 
 })
 

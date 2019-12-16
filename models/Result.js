@@ -11,7 +11,8 @@ let ResultsSchema = new Schema({
   race: {
     type: String,
     trim: true,
-    required: true
+    required: true,
+    unique: true
   },
   raceDescription: {
     type: String,
