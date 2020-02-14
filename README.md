@@ -16,7 +16,6 @@ Run Scraper scrapes the webmaster "picks" from the home page of www.runninginthe
 
 ![scraper-demo](./public/assets/img/scraper-home.png)
 
-![saved-scraper-storefront](./public/assets/img/scraper-note.png)
 
 ## Built With
 * CSS3
